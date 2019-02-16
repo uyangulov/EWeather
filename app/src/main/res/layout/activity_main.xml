@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/humidityView"
+        android:layout_width="119dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="119dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="192dp"
+        android:gravity="center"
+        android:text="Humidity"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Pressure"
+        android:layout_width="119dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="192dp"
+        android:gravity="center"
+        android:text="Pressure"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="323dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="384dp"
+        android:gravity="center"
+        android:text="Loading..."
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682"
+        tools:textColor="#14149f" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="228dp"
+        android:text="Refresh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="325dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Weather in EKB"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/pressureView"
+        android:layout_width="119dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:id="pressureView"
+        tools:textSize="18sp" />
+
+</android.support.constraint.ConstraintLayout>
